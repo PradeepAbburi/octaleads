@@ -40,7 +40,7 @@ const BusinessStats: React.FC = () => {
           </h2>
         </div>
         <div className="bg-white rounded-3xl p-8 flex flex-col gap-8 shadow-xl border border-blue-100">
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {/* Top row: Success, Growth, Excellence */}
               <Link to={`/businessstats/Success`} className="no-underline">
                 <div className="bg-blue-50 rounded-2xl border border-blue-200 p-6 flex flex-col justify-between min-h-[180px] cursor-pointer hover:scale-105 transition-transform duration-200">
@@ -73,7 +73,7 @@ const BusinessStats: React.FC = () => {
                 </div>
               </Link>
           </div>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {/* Bottom row: Security (large), Privacy, Reliability */}
               <Link to={`/businessstats/Security`} className="no-underline col-span-2">
                 <div className="bg-blue-100 rounded-2xl border border-blue-200 p-6 flex flex-col justify-between min-h-[220px] cursor-pointer hover:scale-105 transition-transform duration-200">
